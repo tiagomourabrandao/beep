@@ -1,0 +1,6 @@
+c:\users\tiago\documents\visual studio 2013\Projects\beep\beep\bin\Debug\beep.exe.config
+c:\users\tiago\documents\visual studio 2013\Projects\beep\beep\bin\Debug\beep.exe
+c:\users\tiago\documents\visual studio 2013\Projects\beep\beep\bin\Debug\beep.pdb
+c:\users\tiago\documents\visual studio 2013\Projects\beep\beep\obj\Debug\beep.csprojResolveAssemblyReference.cache
+c:\users\tiago\documents\visual studio 2013\Projects\beep\beep\obj\Debug\beep.exe
+c:\users\tiago\documents\visual studio 2013\Projects\beep\beep\obj\Debug\beep.pdb
