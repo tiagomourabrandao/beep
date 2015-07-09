@@ -23,13 +23,15 @@ namespace beep
             timer.Enabled = true;
 
             Console.WriteLine("Timer ajustado para " + tempo + " minutos.");
-            Console.WriteLine("Feito por Tiago Potência. http://about.me/tiagomourabrandao");
+            Console.WriteLine("Feito por Tiago Potência. http://about.me/tiagomourabrandao\n\n");
+            Console.WriteLine("Timer iniciado às " + DateTime.Now.Hour + "h" + DateTime.Now.Minute + "m");
             Console.ReadLine();
 
         }
 
         private static void OnTimeEvent(object sender, ElapsedEventArgs e)
         {
+            Console.WriteLine("Disparado às " + DateTime.Now.Hour + "h" + DateTime.Now.Minute + "m");
             Console.Beep();
         }
     }
