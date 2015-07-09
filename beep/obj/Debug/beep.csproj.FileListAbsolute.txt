@@ -4,3 +4,7 @@ c:\users\tiago\documents\visual studio 2013\Projects\beep\beep\bin\Debug\beep.pd
 c:\users\tiago\documents\visual studio 2013\Projects\beep\beep\obj\Debug\beep.csprojResolveAssemblyReference.cache
 c:\users\tiago\documents\visual studio 2013\Projects\beep\beep\obj\Debug\beep.exe
 c:\users\tiago\documents\visual studio 2013\Projects\beep\beep\obj\Debug\beep.pdb
+C:\Users\Tiago\Documents\Visual Studio 2013\Projects\beep\beep\bin\Debug\beep.exe.manifest
+C:\Users\Tiago\Documents\Visual Studio 2013\Projects\beep\beep\bin\Debug\beep.application
+C:\Users\Tiago\Documents\Visual Studio 2013\Projects\beep\beep\obj\Debug\beep.exe.manifest
+C:\Users\Tiago\Documents\Visual Studio 2013\Projects\beep\beep\obj\Debug\beep.application
