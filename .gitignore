@@ -1,0 +1,9 @@
+beep.v12.suo
+beep/bin/Debug/app.publish/Application Files/beep_1_0_0_1/beep.exe.config.deploy
+*.deploy
+beep/bin/Debug/app.publish/Application Files/beep_1_0_0_1/beep.exe.manifest
+beep/bin/Debug/app.publish/beep.application
+*.exe
+beep/bin/Debug/beep.application
+*.exe
+beep/bin/Debug/beep.application
