@@ -19,7 +19,7 @@ namespace beep
             Console.WriteLine("Digite o tempo do seu timer em minutos");
             var tempo = Console.ReadLine();
 
-            timer.Interval = int.Parse(tempo) * 100000;
+            timer.Interval = int.Parse(tempo) * 60000;
             timer.Enabled = true;
 
             Console.WriteLine("Timer ajustado para " + tempo + " minutos.");

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="beep.exe" version="1.0.0.2" publicKeyToken="80cbda5f26bbd378" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="beep" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="beep.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="beep.exe" size="6616">
+      <assemblyIdentity name="beep" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>q979DKHjoaVNKyRVFqwrDEM6oB9FhAaoPVbQgop6WSU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="beep.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=TIAGOPOTENCIA\Tiago" issuerKeyHash="c3f94edab6a0401ceceab2bb25c57e10d71cc498" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/j3AVBWF3jtwxU2k26Bo79CoWNZgxVrfCG4L7ttY/gs=</DigestValue></Reference></SignedInfo><SignatureValue>LtSswmJnrS+72dpb1b2eDYlt2JkUbU0nsTGsTTL8JIf22GOjPHQ7cvqda/MmaQQYbGmbwgNroB0FRNd7970X4H3hGK4bJ7G1aitTM6CCE99kPp8TBF8uYMDSkp9F4HdaryEMb7xQje73lKSTBgxI7YkPIzMu/Iy+C2gKTQBIshE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>w4EXjME5Hc7iNv3M64USbHrUOEKSB9NUPxKXWJaKkihBGpTZx+D+heAA9JF962khdHVnGej2LZcDgxumGXWAyHDGkUU3cO8tb/TiQQP+AXgEwz9MIwMtDQMa3Khl0FtnhLe8WudcSUHWEtA7GQeNqV05QJrPVjymM/wqGX5dKfM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0bfe58dbee0b6e08df5ac560d658a8d0ef68a0dba44dc5703bde851554c03dfe" Description="" Url=""><as:assemblyIdentity name="beep.exe" version="1.0.0.2" publicKeyToken="80cbda5f26bbd378" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TIAGOPOTENCIA\Tiago</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>V4Cwrz5iBixctmV/v7iealFKVVl4hr43teImcHaDNNg=</DigestValue></Reference></SignedInfo><SignatureValue>VlLlWOOg/I8XTtnOlLgWyTbRa7TFuBmE8VtSLphEqN8TFddXiA40MCLqurNlLYqCjSq5Q38a1LPN+sr351oTpO2HttQUWH1u85IRUNX7En4PgGR7pAL5iyC5l39RKY5rBjlUxBuV1Hsi03M4foIDmMgy81tFGrDqcgfcMZ0CcRQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>w4EXjME5Hc7iNv3M64USbHrUOEKSB9NUPxKXWJaKkihBGpTZx+D+heAA9JF962khdHVnGej2LZcDgxumGXWAyHDGkUU3cO8tb/TiQQP+AXgEwz9MIwMtDQMa3Khl0FtnhLe8WudcSUHWEtA7GQeNqV05QJrPVjymM/wqGX5dKfM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQGlxpi+BXCJ9FSSM8G4lhEjANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAVABJAEEARwBPAFAATwBUAEUATgBDAEkAQQBcAFQAaQBhAGcAbzAeFw0xNTA3MDkwMjUyMDlaFw0xNjA3MDgwODUyMDlaMDExLzAtBgNVBAMeJgBUAEkAQQBHAE8AUABPAFQARQBOAEMASQBBAFwAVABpAGEAZwBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDgReMwTkdzuI2/czrhRJsetQ4QpIH01Q/EpdYloqSKEEalNnH4P6F4AD0kX3raSF0dWcZ6PYtlwODG6YZdYDIcMaRRTdw7y1v9OJBA/4BeATDP0wjAy0NAxrcqGXQW2eEt7xa51xJQdYS0DsZB42pXTlAms9WPKYz/CoZfl0p8wIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAGDg2kuZcg9I6EZwf6XOvdHOUH89Ji5qUkOU32bTHq5GJqAWjoo9cygn9ry00diu00LVM8v7w2xce6HO932KaXCrGRQ+XhuMRxIJzrNJlL77sfyvad44qc4SGp8NcfNp0kO5hcRsczyyLPDW/4RgteR+7+PhJfakIP4y4iGWUAmc</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
